@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a8e0f9844ff640d5b5c4be7f2f8946e1" Name="Diagram1">
+        <EntityTypeShape EntityType="QuanLyQuanAnModel.Account" Width="1.5" PointX="5.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyQuanAnModel.BanAn" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyQuanAnModel.ChiTietHoaDon" Width="1.5" PointX="5.25" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyQuanAnModel.DanhMuc" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyQuanAnModel.HoaDon" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyQuanAnModel.MonAn" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyQuanAnModel.NhanVien" Width="1.5" PointX="8" PointY="2.125" IsExpanded="true" />
+        <AssociationConnector Association="QuanLyQuanAnModel.FK_NhanVien_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyQuanAnModel.FK_ChiTietHoaDon_BanAn" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyQuanAnModel.FK_HoaDon_BanAn" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyQuanAnModel.FK_ChiTietHoaDon_HoaDon1" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyQuanAnModel.FK_ChiTietHoaDon_MonAn" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyQuanAnModel.FK_MonAn_DanhMuc" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

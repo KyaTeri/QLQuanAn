@@ -1,0 +1,1 @@
+DBCC CHECKIDENT('Hoadon', RESEED, 0)
